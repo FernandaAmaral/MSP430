@@ -1,0 +1,18 @@
+
+**** Build of configuration Debug for project prob1 ****
+
+/Applications/ti/ccsv8/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../main.asm"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/Applications/ti/ccsv8/ccs_base/msp430/include" --include_path="/Users/fernanda/Documents/workspace/prob1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.asm"
+Finished building: "../main.asm"
+ 
+Building target: "prob1.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"prob1.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/Applications/ti/ccsv8/ccs_base/msp430/include" -i"/Applications/ti/ccsv8/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/lib" -i"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.1.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="prob1_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "prob1.out" "./main.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+Finished building target: "prob1.out"
+ 
+
+**** Build Finished ****

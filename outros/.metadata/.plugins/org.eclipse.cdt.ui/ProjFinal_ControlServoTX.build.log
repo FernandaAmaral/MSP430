@@ -1,0 +1,8 @@
+
+**** Build of configuration Debug for project ProjFinal_ControlServoTX ****
+
+/Applications/ti/ccsv8/utils/bin/gmake -k -j 3 all -O 
+ 
+gmake[1]: 'ProjFinal_ControlServoTX.out' is up to date.
+
+**** Build Finished ****

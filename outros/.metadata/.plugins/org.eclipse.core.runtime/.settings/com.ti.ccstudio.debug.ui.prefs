@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>TI\ MSP430\ USB1\\MSP430=0x2400,2400,rx,0x2426,0x2414,0x2420,0x2422,2420,4460,0x2000
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.dsf.debug.ui.disassembly.view<seperator>TI\ MSP430\ USB1\\MSP430=4460,2400
+useAnnotationsPrefPage=true

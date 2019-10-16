@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;monitora_1_chave_ISR&apos; to &apos;monitora_chave_ISR&apos;" description="Rename resource &apos;monitora_1_chave_ISR&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/monitora_1_chave_ISR" name="monitora_chave_ISR" stamp="1526574074755" updateReferences="true"/>
+</session>

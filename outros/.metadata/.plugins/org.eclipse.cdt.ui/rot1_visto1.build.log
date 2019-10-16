@@ -1,0 +1,35 @@
+
+**** Build of configuration Debug for project rot1_visto1 ****
+
+/Applications/ti/ccsv8/utils/bin/gmake -k -j 3 all -O 
+ 
+Building file: "../setClock/main.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/Applications/ti/ccsv8/ccs_base/msp430/include" --include_path="/Users/air/Documents/workspace/rot1_visto1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="setClock/main.d_raw" --obj_directory="setClock"  "../setClock/main.c"
+Finished building: "../setClock/main.c"
+ 
+Building file: "../setClock/pmm.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/Applications/ti/ccsv8/ccs_base/msp430/include" --include_path="/Users/air/Documents/workspace/rot1_visto1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="setClock/pmm.d_raw" --obj_directory="setClock"  "../setClock/pmm.c"
+"../setClock/pmm.c", line 30: remark #1528-D: (ULP 3.1) Detected flag polling using PMMIFG. Recommend using an interrupt combined with enter LPMx and ISR
+"../setClock/pmm.c", line 37: remark #1528-D: (ULP 3.1) Detected flag polling using PMMIFG. Recommend using an interrupt combined with enter LPMx and ISR
+Finished building: "../setClock/pmm.c"
+ 
+Building file: "../setClock/clock.c"
+Invoking: MSP430 Compiler
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --include_path="/Applications/ti/ccsv8/ccs_base/msp430/include" --include_path="/Users/air/Documents/workspace/rot1_visto1" --include_path="/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/include" --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 --preproc_with_compile --preproc_dependency="setClock/clock.d_raw" --obj_directory="setClock"  "../setClock/clock.c"
+Finished building: "../setClock/clock.c"
+ 
+Building target: "rot1_visto1.out"
+Invoking: MSP430 Linker
+"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/bin/cl430" -vmspx --code_model=small --data_model=small --use_hw_mpy=F5 --advice:power=all --define=__MSP430F5529__ -g --printf_support=minimal --diag_warning=225 --diag_wrap=off --display_error_number --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU23 --silicon_errata=CPU40 -z -m"rot1_visto1.map" --heap_size=0 --stack_size=0 --cinit_hold_wdt=on -i"/Applications/ti/ccsv8/ccs_base/msp430/include" -i"/Applications/ti/ccsv8/ccs_base/msp430/lib/5xx_6xx_FRxx" -i"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/lib" -i"/Applications/ti/ccsv8/tools/compiler/ti-cgt-msp430_18.1.3.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="rot1_visto1_linkInfo.xml" --entry_point=RESET --use_hw_mpy=F5 -o "rot1_visto1.out" "./main.obj" "./setClock/clock.obj" "./setClock/main.obj" "./setClock/pmm.obj" "../lnk_msp430f5529.cmd"  -llibmath.a -llibc.a 
+<Linking>
+remark #10371-D: (ULP 1.1) Detected no uses of low power mode state changing instructions
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+Finished building target: "rot1_visto1.out"
+ 
+
+**** Build Finished ****
